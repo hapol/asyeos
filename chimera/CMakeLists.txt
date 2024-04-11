@@ -43,6 +43,6 @@ CHANGE_FILE_EXTENSION(*.cxx *.h HEADERS "${SRCS}")
 set(LINKDEF AsyChimLinkDef.h)
 set(LIBRARY_NAME R3BAsyChim)
 set(DEPENDENCIES
-    Base R3BBase R3BData R3BAsyData)
+    Base R3BBase R3BData R3BAsyData R3BTracking)
 
 GENERATE_LIBRARY()
